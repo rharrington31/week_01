@@ -1,5 +1,6 @@
 ---
 title: "Week 01 Assignment"
+author: Ryan Harringtons
 output: html_document
 ---
 
@@ -11,8 +12,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1.  Explain coercion rules. Create an example that demonstrates the fixed order of the coercion rules.
 
-```{r}
+This is definitely a response to the question.
 
+```{r}
+coercion <- c(1, 2, 3, "one", "two", "three")
 ```
 
 2.  The following code will generate a warning. Explain why.
@@ -21,10 +24,12 @@ knitr::opts_chunk$set(echo = TRUE)
 as.integer(c("one", "two", "three"))
 ```
 
+Here's an answer!
+
 3.  Create a vector of a sequence of integers starting at 2, ending at 100, and increasing by 2. Assign the vector to an object called `evens`. Coerce the vector to be of type `integer`. Confirm that the vector is of type `integer`.
 
 ```{r}
-
+another very real answer
 ```
 
 4.  Create a vector of random numbers with a length equal to your vector in exercise 3. Use a seed with a value of 730 before creating your vector. Assign the vector to an object called `randoms`. Confirm the type of the vector.
